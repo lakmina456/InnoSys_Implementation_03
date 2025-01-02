@@ -1,4 +1,4 @@
-# Real-time Traffic Sign Recognition System 🚦
+# Real-time Traffic Sign Recognition System For Android 🚦
 
 <div align="center">
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="Traffic Sign Recognition Logo" width="150" height="150"/>
@@ -32,7 +32,7 @@
       </td>
       <td align="center">
         <img src="assets/3.png" width="200"/><br />
-        <b>n</b>    
+        <b></b>    
       </td>
     </tr>
   </table>
@@ -123,11 +123,10 @@
    git clone https://github.com/lakmina456/InnoSys_Implementation_03
    ```
 
-2. Install dependencies:
+2. Navigate to the project directory:
    ```bash
-   pip install -r requirements.txt
+   cd InnoSys_Implementation_03
    ```
-
 3. Open in Android Studio and sync Gradle files
 
 4. Build and run on your Android device
@@ -200,9 +199,4 @@ If you use this work in your research, please cite our paper:
 
 For technical support or research inquiries, please [create an issue](https://github.com/lakmina456/InnoSys_Implementation_03/issues) or contact our research team.
 
----
-<div align="center">
-  Built with 🔬 for advancing traffic safety through computer vision
-  <br/>
-  <img src="docs/footer_banner.png" alt="Footer Banner" width="100%"/>
-</div>
+
