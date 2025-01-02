@@ -22,16 +22,17 @@
   <table>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/realtime_detection.png" alt="Real-time Detection" width="200"/><br />
-        <b>Real-time Detection</b>
+        <img src="assets/1.png" width="200"/>
+        <br/>
+        <b></b>
       </td>
       <td align="center">
-        <img src="docs/screenshots/preprocessing.png" alt="Preprocessing" width="200"/><br />
-        <b>Image Preprocessing</b>
+        <img src="assets/2.png" width="200"/><br />
+        <b></b>
       </td>
       <td align="center">
-        <img src="docs/screenshots/audio_feedback.png" alt="Audio Feedback" width="200"/><br />
-        <b>Smart Audio Alerts</b>
+        <img src="assets/3.png" width="200"/><br />
+        <b>n</b>    
       </td>
     </tr>
   </table>
@@ -48,7 +49,7 @@
 ## 🛠️ Technical Architecture
 
 <div align="center">
-  <img src="docs/system_architecture.png" alt="System Architecture" width="800"/>
+  <img src="assets/architecture.png" alt="System Architecture" width="800"/>
 </div>
 
 ### Components:
