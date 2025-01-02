@@ -183,8 +183,12 @@ If you use this work in your research, please cite our paper:
 ```
 @article{realtime_traffic_sign_2024,
   title={Real-time Traffic Sign Recognition System Using Computer Vision},
-  author={[Your Names]},
-  journal={[Journal Name]},
+  author={I.D.I.L Senavirathna,
+A.M.I.P Athapaththu,
+D.G.R.N Munasinghe,
+D.R.L Mendis,
+M.N.M Nafees
+},
   year={2024}
 }
 ```
