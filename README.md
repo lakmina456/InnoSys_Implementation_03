@@ -5,6 +5,7 @@
   
   [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
   [![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)](https://www.python.org)
+  [![OpenCV](https://img.shields.io/badge/OpenCV-4.9-blue.svg)](https://opencv.org)
   [![YOLOv11](https://img.shields.io/badge/YOLO-v11-blue.svg)](https://github.com/ultralytics/yolov5)
   [![CNN](https://img.shields.io/badge/Model-CNN-red.svg)](https://tensorflow.org)
   [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
@@ -39,12 +40,13 @@
 </div>
 
 - 🎯 Real-time traffic sign detection and recognition
-- 🖼️ Advanced image preprocessing using Python
+- 🖼️ Advanced image preprocessing using Python and OpenCV 4.9
 - 🤖 YOLOv11 for accurate sign segmentation
 - 🧠 CNN-based sign classification
 - 🔊 Intelligent auditory feedback system
 - 📱 User-friendly Android interface
 - ⚡ High-performance real-time processing
+- 🔄 Seamless OpenCV-Android integration
 
 ## 🛠️ Technical Architecture
 
@@ -55,24 +57,32 @@
 ### Components:
 
 1. **Preprocessing Module**
-   - Written in Python
+   - OpenCV 4.9 integration
    - Image enhancement and normalization
    - Noise reduction
    - Lighting correction
+   - Real-time frame processing
 
-2. **Segmentation Module**
+2. **OpenCV-Android Integration**
+   - Native OpenCV 4.9 implementation
+   - JNI/NDK integration
+   - Optimized frame processing
+   - Camera feed handling
+   - Real-time video processing
+
+3. **Segmentation Module**
    - YOLOv11 implementation
    - Real-time object detection
    - High accuracy sign localization
    - Multiple sign detection capability
 
-3. **Recognition Module**
+4. **Recognition Module**
    - CNN-based classification
    - Trained on extensive traffic sign dataset
    - High accuracy recognition
    - Fast inference time
 
-4. **Smart Auditory System**
+5. **Smart Auditory System**
    - Context-aware audio feedback
    - Clear voice notifications
    - Priority-based alert system
@@ -106,6 +116,10 @@
       <td>Storage</td>
       <td>500MB free space</td>
     </tr>
+    <tr>
+      <td>OpenCV</td>
+      <td>Version 4.9</td>
+    </tr>
   </table>
 </div>
 
@@ -115,6 +129,7 @@
 - Recognition Speed: <100ms per frame
 - False Positive Rate: <1%
 - System Latency: <200ms
+- Frame Processing: 30+ FPS with OpenCV optimization
 
 ## 🚀 Getting Started
 
@@ -127,26 +142,30 @@
    ```bash
    cd InnoSys_Implementation_03
    ```
+
 3. Open in Android Studio and sync Gradle files
 
-4. Build and run on your Android device
+4. Install OpenCV Manager from Google Play Store
+
+5. Build and run on your Android device
 
 ## 📁 Project Structure
 
 ```mermaid
 graph TD
     A[Android App] --> B[Camera Module]
-    A --> C[Python Interface]
-    A --> D[Audio System]
-    B --> E[Image Capture]
-    C --> F[Preprocessing]
-    C --> G[YOLO Segmentation]
-    C --> H[CNN Recognition]
-    D --> I[Audio Feedback]
+    A --> C[OpenCV Integration]
+    C --> D[Python Interface]
+    C --> E[Native Processing]
+    B --> F[Image Capture]
+    D --> G[Preprocessing]
+    D --> H[YOLO Segmentation]
+    D --> I[CNN Recognition]
+    A --> J[Audio System]
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
-    style G fill:#dfd,stroke:#333,stroke-width:2px
+    style H fill:#dfd,stroke:#333,stroke-width:2px
 ```
 
 ## 📈 Research Results
@@ -162,6 +181,7 @@ Results show significant improvements over existing solutions:
 - Faster recognition speed
 - Lower false positive rate
 - Better performance on partially obscured signs
+- Optimized processing with OpenCV 4.9
 
 ## 👥 Research Team
 
@@ -183,12 +203,7 @@ If you use this work in your research, please cite our paper:
 ```
 @article{realtime_traffic_sign_2024,
   title={Real-time Traffic Sign Recognition System Using Computer Vision},
-  author={I.D.I.L Senavirathna,
-A.M.I.P Athapaththu,
-D.G.R.N Munasinghe,
-D.R.L Mendis,
-M.N.M Nafees
-},
+  author={I.D.I.L Senavirathna, A.M.I.P Athapaththu, D.G.R.N Munasinghe, D.R.L Mendis, M.N.M Nafees},
   year={2024}
 }
 ```
@@ -202,5 +217,3 @@ M.N.M Nafees
 </div>
 
 For technical support or research inquiries, please [create an issue](https://github.com/lakmina456/InnoSys_Implementation_03/issues) or contact our research team.
-
-
